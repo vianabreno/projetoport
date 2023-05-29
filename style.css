@@ -183,6 +183,13 @@ main section a img:hover, :focus{
     font-family: var(--font01);
 }
 
+
+
+
+
+
+
+
 /* PAGINA II -QUEM SOU EU- */
 
 #fotoQuemSouEu{
@@ -217,7 +224,55 @@ main section a img:hover, :focus{
 }
 
 #buttonsPageQuemSouEu{
-    margin-left: 57%;
+    margin-left: 56%;
+}
+
+
+
+
+
+/* PAGINA III -PROJETOS- */
+
+#myConteiners{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.conteiners{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+
+#conteinerI{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#conteinerII{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#conteinerIII{
+    display: inline-block;
+}
+
+#conteinerIV{
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#conteinerV{
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#conteinerVI{
+    display: inline-block;
+    margin-top: 2%;
 }
 
 @keyframes go-back {

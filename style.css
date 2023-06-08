@@ -108,7 +108,7 @@ main section div p .especialName{
 
 main input#myContato{
     width: 11%;
-    margin-left: 10%;
+    margin-left: 14%;
     margin-top: 1.5%;
     font-family: var(--font02);
     font-size: 100%;
@@ -117,7 +117,7 @@ main input#myContato{
     color: white;
     border-radius: 15px;
     border: 0px;
-    animation: go-back 1.5s infinite alternate;
+    animation: wiggle 2s linear infinite;
 }
 
 main input#myContato:hover{
@@ -206,7 +206,7 @@ main section a img:hover, :focus{
     border-radius: 50%;
     border: 1px solid white;
     animation: tremer .2s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 2;
 }
 
 #txtQuemSouEu{
@@ -275,20 +275,40 @@ main section a img:hover, :focus{
     margin-top: 2%;
 }
 
-@keyframes go-back {
-    from {
-      transform: translateX(100px);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
+.imagensProjetos{
+    width: 100%;
+    height: 100%;
+}
 
-  @keyframes tremer {
+@keyframes tremer {
     0% {margin-left: 0;}
     25% {margin-left: 7px;}
     50% {margin-left: 0;}
     75% {margin-left: -7px;}
     100% {margin-left: 0;}
 }
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
 

@@ -302,42 +302,80 @@ main section a img:hover, :focus{
 
 #myHab{
     font-family: var(--font01);
-    font-size: 3em;
-    background-color: white;
+    font-size: 3.5em;
+    color: white;
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 34%;
+    left: 32%;
 }
 
 #txtHardSkill{
-    background-color: white;
+    color: white;
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 10%;
-    font-family: var(--font01);
-    font-size: 1em;
+    font-family: var(--font02);
+    font-size: 1.1em;
+    width: 200px;
 }
 
 #hardSkill{
-    background-color: white;
+    background-color: red;
+    color: white;
     display: inline-block;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 47%;
+    left: 10.5%;
     font-family: var(--font01);
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+#txttHardSkill{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-family: var(--font02);
+    font-size: 1.1em;
+    width: 200px;
+    line-height: 2em;
+}
+
+#txtSoftSkill{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+    font-family: var(--font02);
+    font-size: 1.1em;
+    width: 200px;
 }
 
 #softSkill{
-    background-color: white;
+    background-color: red;
+    color: white;
     display: inline-block;
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: 47%;
+    left: 75.8%;
     font-family: var(--font01);
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+#txttSoftSkill{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    font-family: var(--font02);
+    font-size: 1.1em;
+    width: 200px;
+    line-height: 2em;
 }
 
 

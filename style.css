@@ -307,7 +307,7 @@ main section a img:hover, :focus{
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 32%;
+    left: 31.5%;
 }
 
 #txtHardSkill{
@@ -327,9 +327,9 @@ main section a img:hover, :focus{
     display: inline-block;
     position: absolute;
     top: 47%;
-    left: 10.5%;
+    left: 9.8%;
     font-family: var(--font01);
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 #txttHardSkill{
@@ -361,9 +361,9 @@ main section a img:hover, :focus{
     display: inline-block;
     position: absolute;
     top: 47%;
-    left: 75.8%;
+    left: 75%;
     font-family: var(--font01);
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 #txttSoftSkill{

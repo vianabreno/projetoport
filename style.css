@@ -106,7 +106,7 @@ main section div p .especialName{
     font-weight: bold;
 }
 
-main input#myContato{
+main input.myContato{
     width: 11%;
     margin-left: 14%;
     margin-top: 1.5%;
@@ -120,7 +120,7 @@ main input#myContato{
     animation: wiggle 2s linear infinite;
 }
 
-main input#myContato:hover{
+main input.myContato:hover{
     cursor: pointer;
     background-color: white;
     color: #D92B2B;
@@ -183,6 +183,14 @@ main section a img:hover, :focus{
     font-family: var(--font01);
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: var(--font02);
+    font-size: 0.7em;
+}
 
 
 
@@ -211,20 +219,26 @@ main section a img:hover, :focus{
 
 #txtQuemSouEu{
     width: 700px;
-    height: 300px;
-    background-color: rgba(255, 255, 255, 0.815);
+    height: 320px;
+    background-color: white;
     margin-left: 38%;
-    margin-top: 9%;
+    margin-top: 8%;
     padding: 10px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .txtQuemSouEu{
     font-family: var(--font02);
+    line-height: 2.1em;
 }
 
-#buttonsPageQuemSouEu{
-    margin-left: 56%;
+#myContatoQs{
+    margin-left: 60%;
+}
+
+#footerQsouEu{
+    margin-top: 3%;
 }
 
 
@@ -236,22 +250,25 @@ main section a img:hover, :focus{
 #myConteiners{
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .conteiners{
     width: 300px;
     height: 200px;
-    background-color: rgba(255, 255, 255, 0.384);
     color: white;
     font-family: var(--font02);
     border: solid 1px white;
+
 }
 
 .conteiners:hover{
-    font-weight: bolder;
-    border: solid 1px red;
     cursor: pointer;
-    
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 1s;
+    animation: tremer .2s;
+    animation-iteration-count: 2;
 }
 
 #conteinerI{
@@ -376,6 +393,10 @@ main section a img:hover, :focus{
     font-size: 1.1em;
     width: 200px;
     line-height: 2em;
+}
+
+#footerHab{
+    margin-top: 40%;
 }
 
 

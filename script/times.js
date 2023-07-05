@@ -1,1 +1,0 @@
-let tempo = new time()

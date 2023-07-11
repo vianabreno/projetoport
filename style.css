@@ -21,6 +21,11 @@
     padding: 0%;
 }
 
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body{
     background-image: url('imagens/outrasimagens/wallpaper02.jpg');
     height: 100vh;
@@ -29,6 +34,9 @@ body{
     background-size: cover;
 }
 
+main{
+    position: relative;
+}
 
 header{
     text-align: right;
@@ -81,7 +89,7 @@ main section#avatar{
     height: 320px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     border: 1px solid white;
@@ -131,8 +139,8 @@ main section#buttons{
     width: 300px;
     height: 100px;
     position: absolute;
-    left: 68%;
-    top: 53%;
+    left: 66.8%;
+    top: 44%;
     text-align: center;
 }
 
@@ -164,7 +172,7 @@ main section a img:hover, :focus{
 #time{
     width: 300px;
     height: 90px;
-    margin-top: 13%;
+    margin-top: 10%;
     margin-left: 39%;
 
 }
@@ -187,7 +195,7 @@ footer{
     width: 100%;
     text-align: center;
     margin: auto;
-    margin-top: -1%;
+    margin-top: -1.5%;
     color: white;
     font-family: var(--font02);
     font-size: 0.7em;
@@ -210,7 +218,7 @@ footer{
     height: 370px;
     position: absolute;
     left: 20%;
-    top: 55%;
+    top: 45%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     border: 1px solid white;
@@ -223,7 +231,7 @@ footer{
     height: 320px;
     background-color: white;
     margin-left: 38%;
-    margin-top: 8%;
+    margin-top: 6%;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -250,7 +258,7 @@ footer{
 
 #myConteiners{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 3%;
 }
 
@@ -308,6 +316,10 @@ footer{
     height: 80%;
 }
 
+#footerProjetos{
+    margin-top: 3.5%;
+}
+
 
 
 
@@ -324,7 +336,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 40%;
+    top: 90px;
     left: 31.5%;
 }
 
@@ -332,7 +344,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 27%;
+    top: 30px;
     left: 10%;
     font-family: var(--font02);
     font-size: 1.1em;
@@ -344,7 +356,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 47%;
+    top: 150px;
     left: 9.8%;
     font-family: var(--font01);
     font-size: 1.7em;
@@ -354,7 +366,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 55%;
+    top: 200px;
     left: 10%;
     font-family: var(--font02);
     font-size: 1.1em;
@@ -366,7 +378,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 27%;
+    top: 30px;
     left: 75%;
     font-family: var(--font02);
     font-size: 1.1em;
@@ -378,7 +390,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 47%;
+    top: 150px;
     left: 75%;
     font-family: var(--font01);
     font-size: 1.7em;
@@ -388,7 +400,7 @@ footer{
     color: white;
     display: inline-block;
     position: absolute;
-    top: 55%;
+    top: 200px;
     left: 75%;
     font-family: var(--font02);
     font-size: 1.1em;
@@ -397,7 +409,7 @@ footer{
 }
 
 #footerHab{
-    margin-top: 40%;
+    margin-top: 42%;
 }
 
 
@@ -409,8 +421,8 @@ main section#buttonsContato{
     width: 500px;
     height: 100px;
     position: absolute;
-    left: 30.5%;
-    top: 20%;
+    left: 28%;
+    bottom: 110%;
     text-align: center;
     text-decoration: none;
 }

@@ -28,8 +28,6 @@
 
 body{
     background-image: url('imagens/outrasimagens/wallpaper02.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -78,6 +76,10 @@ header nav a:hover{
     color: var(--cor03);
     text-decoration: underline;
 
+}
+
+#menuEspecial{
+    display: none;
 }
 
 main section#avatar{
@@ -515,3 +517,324 @@ input[type="submit"]{
     }
   }
 
+
+
+
+@media (max-width: 323px){
+    /*PAGINA I INDEX*/
+
+header div#logomarca{
+    width: 20%;
+    display: inline-block;
+    margin-right: 75%;
+    margin-top: 3%;
+}
+
+#menuEspecial{
+    display: block;
+    position: absolute;
+    left: 59%;
+    top: 3%;
+}
+
+#menuEspecial > a{
+    line-height: 1.5em;
+    z-index: 1;
+    display: none;
+    margin-bottom: 0%;
+    position: absolute;
+    right: 38%;
+}
+
+#imagemMenu{
+    width: 50px;
+}
+
+#menuPadrao{
+    display: none;
+}
+
+main section#avatar{
+    background-image: url('imagens/outrasimagens/avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    border-radius: 50%;
+    border: 1px solid white;
+    z-index: -1;
+}
+
+main section#navegacion{
+    color: white;
+    width: 243px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 24px;
+}
+
+main section div p{
+    font-family: var(--font02);
+    font-size: 1em;
+}
+
+main section div p .especialName{
+    color: var(--cor03);
+    font-weight: bold;
+}
+
+main input.myContato{
+    width: 35%;
+    font-family: var(--font02);
+    font-size: 80%;
+    padding: .3%;
+    background-color: var(--cor03);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    animation: wiggle 2s linear infinite;
+    position: absolute;
+    top: 350px;
+    left: 58px;
+}
+
+main input.myContato:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #D92B2B;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.26);
+}
+
+main section#buttons{
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    left: 37px;
+    top: 470px;
+    text-align: center;
+}
+
+main section a img{
+    width: 32px;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+}
+
+main section a img:hover, :focus{
+    transform: translateX(10px) scale(1.3);
+}
+
+#navegacionTwo{
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-family: var(--font02);
+    font-size: 1em;
+    position: absolute;
+    top: 450px;
+    right: 17px;
+}
+
+#time{
+    font-size: 0.6em;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 550px;
+    left: -69px;
+}
+
+#displayData{
+    color: white;
+    height: 50%;
+    text-align: center;
+    font-family: var(--font01);
+}
+
+#displayHora{
+    color: white;
+    height: 50%;
+    text-align: center;
+    font-family: var(--font01);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-family: var(--font02);
+    font-size: 0.5em;
+    position: absolute;
+    top: 690px;
+    right: 2px;
+}
+
+}
+
+
+
+
+
+@media (max-width: 423px){
+    /*PAGINA I INDEX*/
+
+header div#logomarca{
+    width: 20%;
+    display: inline-block;
+    margin-right: 75%;
+    margin-top: 3%;
+}
+
+#menuEspecial{
+    display: block;
+    position: absolute;
+    left: 59%;
+    top: 3%;
+}
+
+#menuEspecial > a{
+    line-height: 1.5em;
+    z-index: 1;
+    display: none;
+    margin-bottom: 0%;
+    position: absolute;
+    right: 38%;
+}
+
+#imagemMenu{
+    width: 50px;
+}
+
+#menuPadrao{
+    display: none;
+}
+
+main section#avatar{
+    background-image: url('imagens/outrasimagens/avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 180px;
+    left: 205px;
+    border-radius: 50%;
+    border: 1px solid white;
+    z-index: -1;
+}
+
+main section#navegacion{
+    color: white;
+    font-size: 1.3em;
+    width: 350px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 10px;
+}
+
+main section div p{
+    font-family: var(--font02);
+    font-size: 1em;
+}
+
+main section div p .especialName{
+    color: var(--cor03);
+    font-weight: bold;
+}
+
+main input.myContato{
+    width: 30%;
+    font-family: var(--font02);
+    font-size: 95%;
+    padding: .5%;
+    background-color: var(--cor03);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    animation: wiggle 2s linear infinite;
+    position: absolute;
+    top: 415px;
+    left: 78px;
+}
+
+main input.myContato:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #D92B2B;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.26);
+}
+
+main section#buttons{
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 48px;
+    top: 533px;
+    text-align: center;
+}
+
+main section a img{
+    width: 45px;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+}
+
+main section a img:hover, :focus{
+    transform: translateX(10px) scale(1.3);
+}
+
+#navegacionTwo{
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-family: var(--font02);
+    font-size: 1.1em;
+    position: absolute;
+    top: 550px;
+    right: 21px;
+}
+
+#time{
+    font-size: 0.8em;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 615px;
+    left: -53px;
+}
+
+#displayData{
+    color: white;
+    height: 50%;
+    text-align: center;
+    font-family: var(--font01);
+}
+
+#displayHora{
+    color: white;
+    height: 50%;
+    text-align: center;
+    font-family: var(--font01);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-family: var(--font02);
+    font-size: 0.7em;
+    position: absolute;
+    top: 780px;
+    right: 2px;
+}
+
+}

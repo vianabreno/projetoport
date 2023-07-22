@@ -703,7 +703,7 @@ header div#logomarca{
 #menuEspecial > a{
     line-height: 1.5em;
     z-index: 1;
-    display: none;
+    display: ;
     margin-bottom: 0%;
     position: absolute;
     right: 38%;

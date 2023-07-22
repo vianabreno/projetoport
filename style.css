@@ -533,8 +533,10 @@ header div#logomarca{
 #menuEspecial{
     display: block;
     position: absolute;
-    left: 59%;
+    left: 99%;
     top: 3%;
+    width: 50px;
+    height: 35px;
 }
 
 #menuEspecial > a{
@@ -547,7 +549,8 @@ header div#logomarca{
 }
 
 #imagemMenu{
-    width: 50px;
+    width: 150px;
+
 }
 
 #menuPadrao{
@@ -700,10 +703,11 @@ header div#logomarca{
     height: 35px;
 }
 
+
 #menuEspecial > a{
     line-height: 1.5em;
     z-index: 1;
-    display: ;
+    display: none;
     margin-bottom: 0%;
     position: absolute;
     right: 38%;

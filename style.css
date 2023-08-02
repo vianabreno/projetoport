@@ -178,15 +178,13 @@ main section a img:hover, :focus{
 
 #time{
     width: 300px;
-    height: 90px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 39%;
 
 }
 
 #displayData{
     color: white;
-    height: 50%;
     text-align: center;
     font-family: var(--font01);
 }
@@ -202,7 +200,6 @@ footer{
     width: 100%;
     text-align: center;
     margin: auto;
-    margin-top: -1.5%;
     color: white;
     font-family: var(--font02);
     font-size: 0.7em;

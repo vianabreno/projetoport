@@ -24,6 +24,7 @@
 .conteiner{
     max-width: 1250px;
     margin: 0 auto;
+    
 }
 
 body{
@@ -36,7 +37,7 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 header{
@@ -101,10 +102,11 @@ header nav a:hover{
     color: white;
     text-align: center;
     font-family: var(--font02);
-    font-size: 2em;
+    font-size: 2.1em;
     display: inline-block;
     width: 350px;
     height: 350px;
+    margin-right: 15px;
 }
 
 #navegacionTwo{
@@ -115,11 +117,12 @@ header nav a:hover{
     display: inline-block;
     width: 350px;
     height: 350px;
+    margin-left: 15px;
 }
 
 #text-navegacion{
     font-family: var(--font02);
-    margin-top: 21%;
+    margin-top: 12%;
 }
 
 #text-navegacionTwo{
@@ -203,9 +206,11 @@ footer{
     color: white;
     font-family: var(--font02);
     font-size: 0.7em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
-
-
 
 
 
@@ -220,38 +225,38 @@ footer{
     background-position: center;
     width: 370px;
     height: 370px;
-    position: absolute;
-    left: 20%;
-    top: 45%;
-    transform: translate(-50%, -50%);
+    display: inline-block;
     border-radius: 50%;
     border: 1px solid white;
     animation: tremer .2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 3;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 #txtQuemSouEu{
-    width: 700px;
-    height: 320px;
+    width: 600px;
     background-color: white;
-    margin-left: 38%;
-    margin-top: 6%;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .txtQuemSouEu{
     font-family: var(--font02);
-    line-height: 2.1em;
+    line-height: 1.4em;
 }
 
 #myContatoQs{
-    margin-left: 60%;
+    margin-top: 40px;
+    width: 150px;
+    height: 35px;
 }
 
 #footerQsouEu{
-    margin-top: 3%;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -260,10 +265,12 @@ footer{
 
 /* PAGINA III -PROJETOS- */
 
-#myConteiners{
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
+#myConteiner{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .conteiners{
@@ -272,7 +279,6 @@ footer{
     color: white;
     font-family: var(--font02);
     border: solid 1px white;
-
 }
 
 .conteiners:hover{
@@ -284,45 +290,11 @@ footer{
     animation-iteration-count: 2;
 }
 
-#conteinerI{
-    display: inline-block;
-    margin-right: 2%;
-}
-
-#conteinerII{
-    display: inline-block;
-    margin-right: 2%;
-}
-
-#conteinerIII{
-    display: inline-block;
-}
-
-#conteinerIV{
-    display: inline-block;
-    margin-right: 2%;
-    margin-top: 2%;
-}
-
-#conteinerV{
-    display: inline-block;
-    margin-right: 2%;
-    margin-top: 2%;
-}
-
-#conteinerVI{
-    display: inline-block;
-    margin-top: 2%;
-}
-
 .imagensProjetos{
     width: 100%;
     height: 80%;
 }
 
-#footerProjetos{
-    margin-top: 3.5%;
-}
 
 
 
@@ -332,90 +304,44 @@ footer{
 #habilidades{
     text-align: center;
     margin-top: 5%;
-}
-
-#myHab{
-    font-family: var(--font01);
-    font-size: 3.5em;
     color: white;
-    display: inline-block;
-    position: absolute;
-    top: 90px;
-    left: 31.5%;
-}
-
-#txtHardSkill{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 10%;
-    font-family: var(--font02);
-    font-size: 1.1em;
-    width: 200px;
 }
 
 #hardSkill{
-    background-color: red;
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 150px;
-    left: 9.8%;
+    width: 300px;
+
+}
+
+#myHab{
+    width: 320px;
     font-family: var(--font01);
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
-#txttHardSkill{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 200px;
-    left: 10%;
-    font-family: var(--font02);
-    font-size: 1.1em;
-    width: 200px;
-    line-height: 2em;
-}
-
-#txtSoftSkill{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 75%;
-    font-family: var(--font02);
-    font-size: 1.1em;
-    width: 200px;
+#txtHab{
+    margin-top: 50%;
 }
 
 #softSkill{
-    background-color: red;
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 150px;
-    left: 75%;
-    font-family: var(--font01);
-    font-size: 1.7em;
+    width: 300px;
 }
 
-#txttSoftSkill{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 200px;
-    left: 75%;
+.txtSkill{
     font-family: var(--font02);
-    font-size: 1.1em;
-    width: 200px;
+    font-size: 1.5em;
+}
+
+.txttSkill{
+    font-family: var(--font03);
+    font-size: 1.5em;
+    color: red;
+}
+
+.txtttSkill{
+    font-family: var(--font02);
+    font-size: 1.5em;
     line-height: 2em;
 }
-
-#footerHab{
-    margin-top: 42%;
-}
-
 
 
 
@@ -518,4 +444,5 @@ input[type="submit"]{
       transform: rotateZ(0);
     }
   }
+
 

@@ -305,21 +305,25 @@ footer{
     text-align: center;
     margin-top: 5%;
     color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 #hardSkill{
     width: 300px;
-
 }
 
 #myHab{
-    width: 320px;
     font-family: var(--font01);
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 #txtHab{
     margin-top: 50%;
+    animation: bounce .8s alternate infinite ease-in;
 }
 
 #softSkill{
@@ -334,7 +338,8 @@ footer{
 .txttSkill{
     font-family: var(--font03);
     font-size: 1.5em;
-    color: red;
+    color: white;
+    background-color: red;
 }
 
 .txtttSkill{
@@ -347,14 +352,12 @@ footer{
 
 /*PAGINA V - CONTATO - */
 
-main section#buttonsContato{
+#buttonsContato{
     width: 500px;
     height: 100px;
-    position: absolute;
-    left: 28%;
-    bottom: 110%;
     text-align: center;
     text-decoration: none;
+    background-color: #4CAF50;
 }
 
 .imgContato{
@@ -412,6 +415,14 @@ input[type="submit"]{
 }
 
 
+@keyframes bounce {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+}
 
 @keyframes tremer {
     0% {margin-left: 0;}

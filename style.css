@@ -352,32 +352,19 @@ footer{
 
 /*PAGINA V - CONTATO - */
 
-#buttonsContato{
-    width: 500px;
-    height: 100px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #4CAF50;
+#contatoForms{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
-.imgContato{
-    width: 60px;
-    border-radius: 50px;
-    padding: 2px;
-    margin-left: 15px;
-    margin-top: 25px;
-    border: 1px solid white;
-    transition: transform 0.5s;
-    transform: translateX(0) scale(1);
-}
-
-h1{
-    text-align: center;
+#myForm > h1{
     color: white;
     font-family: var(--font01);
     font-size: 1.2em;
-    margin-top: 15%;
-    margin-bottom: 2%;
+    margin-bottom: 30px;
 }
   
 form{

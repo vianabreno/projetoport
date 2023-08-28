@@ -462,8 +462,8 @@ input[type="submit"]{
 
     .linkEspecial{
         display: none;
-        background-color: black;
-        color: white;
+        background-color: rgba(255, 255, 255, 0.904);
+        color: black;
         border-radius: 0%;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -507,8 +507,8 @@ input[type="submit"]{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 290px;
-        height: 290px;
+        width: 295px;
+        height: 295px;
         border: 1px solid white;
         display: inline-block;
         border-radius: 50%;

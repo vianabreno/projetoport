@@ -254,6 +254,13 @@ footer{
     height: 35px;
 }
 
+main input.myContato:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #D92B2B;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.26);
+}
+
 #footerQsouEu{
     position: absolute;
     bottom: 0;
@@ -671,6 +678,13 @@ input[type="submit"]{
         margin-top: 40px;
         width: 150px;
         height: 35px;
+    }
+
+    main input.myContato:hover{
+        cursor: pointer;
+        background-color: black;
+        color: #D92B2B;
+        box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.26);
     }
     
     #footerQsouEu{

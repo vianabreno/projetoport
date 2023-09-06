@@ -4,12 +4,12 @@ class form{
         this.pauseForms()
     }
 
-    pauseForms(){
-        this.forms.addEventListener("submit", sub=>{
-            sub.preventDefault()
+pauseForms(){
+    this.forms.addEventListener("submit", sub=>{
+        sub.preventDefault()
 
-            alert('ok')
-        })
-    }
+        alert('ok')
+    })
+}
 
 }

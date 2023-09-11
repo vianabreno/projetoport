@@ -2471,7 +2471,7 @@ input[type="submit"]{
 
 
     #footerCont{
-        position: absolute;
+        position: relative;
         bottom: 0;
         left: 0;
         right: 0;
